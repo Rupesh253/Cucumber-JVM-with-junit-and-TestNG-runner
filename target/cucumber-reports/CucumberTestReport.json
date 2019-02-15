@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing the login functionality (or) feature of an application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 469222500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As an existing user",
+            "match": {
+              "location": "LoginPage.as_an_existing_user()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Authenication",
+        "description": "",
+        "id": "login-feature;authenication",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567000,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.cucumber.stepDefinations.LoginPage.open_Application_and_Enter_url(LoginPage.java:66)\r\n\tat ✽.Given Open Application and Enter url(src/test/resources/Features/Login.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Open Application and Enter url",
+            "match": {
+              "location": "LoginPage.open_Application_and_Enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter username",
+            "match": {
+              "location": "LoginPage.enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter password",
+            "match": {
+              "location": "LoginPage.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "verify Msg",
+            "match": {
+              "location": "LoginPage.verify_Msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@scenarioID(\"U01-TS01\")"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@userStory(\"U01\")"
+      }
+    ]
+  }
+]

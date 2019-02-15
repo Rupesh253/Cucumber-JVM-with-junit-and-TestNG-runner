@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [BDD Test Suite]">
+  <test name="BDD Test(failed)">
+    <classes>
+      <class name="org.cucumber.testRunners.TestRunnerWithTestNG">
+        <methods>
+          <include name="setUP"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.cucumber.testRunners.TestRunnerWithTestNG -->
+    </classes>
+  </test> <!-- BDD Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

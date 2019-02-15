@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="9625" started-at="2018-10-30T06:29:08Z" finished-at="2018-10-30T06:29:18Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="9625" started-at="2018-10-30T06:29:08Z" finished-at="2018-10-30T06:29:18Z">
+      <class name="org.cucumber.testRunners.TestRunnerWithTestNG">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:org.cucumber.testRunners.TestRunnerWithTestNG@2c6a3f77]" name="setUP" is-config="true" duration-ms="6735" started-at="2018-10-29T23:29:08Z" finished-at="2018-10-29T23:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.cucumber.testRunners.TestRunnerWithTestNG@2c6a3f77]" name="login" duration-ms="1711" started-at="2018-10-29T23:29:15Z" data-provider="features" finished-at="2018-10-29T23:29:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.cucumber.testRunners.TestRunnerWithTestNG@2c6a3f77]" name="tearDown" is-config="true" duration-ms="860" started-at="2018-10-29T23:29:17Z" finished-at="2018-10-29T23:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.cucumber.testRunners.TestRunnerWithTestNG -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
